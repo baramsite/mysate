@@ -16,9 +16,9 @@ body {
 
   background: linear-gradient(
     90deg,
-    #FFD27A,
-    #FFA500,
-    #FF6A00
+    #ffffff,
+      #ffcc00,
+      #ff6600
   );
 
   -webkit-background-clip: text;
