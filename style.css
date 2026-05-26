@@ -11,6 +11,16 @@ body {
     background: #1b1b1b;
   }
   
-  h1 {
-    font-size: 48px;
-  }
+ h1 {
+  font-size: 48px;
+
+  background: linear-gradient(
+    90deg,
+    #FFD27A,
+    #FFA500,
+    #FF6A00
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
