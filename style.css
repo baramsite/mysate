@@ -15,10 +15,10 @@ body {
   font-size: 48px;
 
   background: linear-gradient(
-    90deg,
-    #ffffff,
-      #ffcc00,
-      #ff6600
+    45deg,
+    #FFD27A,
+    #FFA500,
+    #FF6A00
   );
 
   -webkit-background-clip: text;
