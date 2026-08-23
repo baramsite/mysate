@@ -55,10 +55,7 @@ h1 {
   border-color: #FFA500;
   transform: translateY(-3px);
 }
-.link-window-fifth {
-  grid-column: 2 / 4;
-  justify-self: center;
-}
+
 @media (max-width: 700px) {
   .link-area {
     grid-template-columns: repeat(2, 1fr);
