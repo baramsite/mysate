@@ -78,10 +78,15 @@ h1 {
   }
 
   /* PC用の座席指定を解除 */
-  .link-window:nth-child(5),
-  .link-window:nth-child(6) {
-    grid-column: auto;
-  }
+  .link-window:nth-child(5) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.link-window:nth-child(6) {
+  grid-column: 2;
+  grid-row: 3;
+}
 
   main,
   section {
