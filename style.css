@@ -30,7 +30,6 @@ h1 {
   grid-template-columns: repeat(4, 160px);
   justify-content: center;
   gap: 30px;
-
   padding: 60px 20px;
 }
 
@@ -51,22 +50,37 @@ h1 {
   transition: 0.2s;
 }
 
+/* PC：5番目と6番目を中央2列へ */
+.link-window:nth-child(5) {
+  grid-column: 2;
+}
+
+.link-window:nth-child(6) {
+  grid-column: 3;
+}
+
 .link-window:hover {
   border-color: #FFA500;
   transform: translateY(-3px);
 }
 
+/* スマホ */
 @media (max-width: 700px) {
   .link-area {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 160px);
+    justify-content: center;
     gap: 20px;
     padding: 40px 20px;
   }
 
   .link-window {
-    width: 100%;
-    max-width: 160px;
-    justify-self: center;
+    width: 160px;
+  }
+
+  /* PC用の座席指定を解除 */
+  .link-window:nth-child(5),
+  .link-window:nth-child(6) {
+    grid-column: auto;
   }
 
   main,
