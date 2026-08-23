@@ -59,3 +59,32 @@ h1 {
   grid-column: 2 / 4;
   justify-self: center;
 }
+@media (max-width: 700px) {
+  .link-area {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .link-window {
+    width: 100%;
+    max-width: 160px;
+    justify-self: center;
+  }
+
+  .link-window-fifth {
+    grid-column: 1 / 3;
+    justify-self: center;
+  }
+
+  main,
+  section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+main section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
